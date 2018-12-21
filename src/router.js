@@ -14,7 +14,7 @@ export default new Router({
       component: Index,
       children:[
         {
-          path: '',
+          path: '/',
           name: 'Index',
           component: () => import('./views/Index/Main.vue')
         },
